@@ -342,7 +342,7 @@ skos:Concept rdf:type owl:Class .
                                              skos:Concept ;
                                     skos:broader :AreaUnderCurveMeasurement ,
                                                  :CFS_Subject_Eval_Decision_Stump ;
-  				    skos:definition: "Area Under the ROC Curve achieved by the landmarker weka.classifiers.trees.DecisionStump -E 'weka.attributeSelection.CfsSubsetEval -P 1 -E 1' -S 'weka.attributeSelection.BestFirst -D 1 -N 5' -W";
+  				    skos:definition "Area Under the ROC Curve achieved by the landmarker weka.classifiers.trees.DecisionStump -E 'weka.attributeSelection.CfsSubsetEval -P 1 -E 1' -S 'weka.attributeSelection.BestFirst -D 1 -N 5' -W";
                                     skos:prefLabel "CFS Subject Eval Decision Stump area under curve" .
 
 
